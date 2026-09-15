@@ -1,0 +1,40 @@
+name: Veille arrêtés PREMAR
+
+on:
+  schedule:
+    # Tous les lundis à 3h du matin (heure française l'hiver ; 4h l'été) —
+    # avant que l'agent ne reprenne son service, sans jamais interroger le
+    # site plus d'une fois par semaine.
+    - cron: "0 3 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Récupérer les arrêtés en vigueur (Hérault + Gard)
+        run: python scraper.py
+
+      - name: Publier si le contenu a changé
+        run: |
+          if git diff --quiet -- data/arretes_premar.json; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          git config user.name "veille-premar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/arretes_premar.json
+          git commit -m "Mise à jour automatique des arrêtés PREMAR"
+          git push
