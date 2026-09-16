@@ -1,0 +1,40 @@
+name: Veille textes réglementaires SEACONTROL
+
+on:
+  schedule:
+    # Tous les lundis à 4h du matin — indépendant de la veille PREMAR, ce contrôle ne
+    # modifie jamais le contenu de l'application : il signale seulement qu'une source a
+    # changé, à charge pour l'utilisateur de demander la mise à jour du texte dans l'appli.
+    - cron: "0 4 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  veille-textes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Vérifier les textes réglementaires (empreinte de contenu)
+        run: python veille_textes/check_updates.py
+
+      - name: Publier si des alertes ont changé
+        run: |
+          if git diff --quiet -- veille_textes/instruments.json veille_textes/alertes.json; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          git config user.name "veille-textes-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add veille_textes/instruments.json veille_textes/alertes.json
+          git commit -m "Veille textes réglementaires : mise à jour des empreintes/alertes"
+          git push

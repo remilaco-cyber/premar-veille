@@ -33,3 +33,42 @@ l'échange avec Claude pour la marche à suivre exacte).
 pip install -r requirements.txt
 python scraper.py
 ```
+
+## Second outil : veille des textes réglementaires (`veille_textes/`)
+
+Distinct du scraper PREMAR ci-dessus. Il couvre tous les autres textes utilisés par
+l'application (pêche professionnelle, RIPAM, pêche de loisir...) et fonctionne
+différemment : il ne republie JAMAIS de contenu applicatif automatiquement, car un texte
+réglementaire exige une relecture humaine avant toute modification du code de l'appli. Il se
+contente de **signaler** qu'un texte mérite d'être revérifié.
+
+- `veille_textes/instruments.json` : la liste des textes suivis (titre, URL source, type).
+- `veille_textes/check_updates.py` : à chaque exécution, met à jour cette liste et ajoute des
+  entrées dans `veille_textes/alertes.json` quand un texte doit être revérifié.
+- `.github/workflows/veille_textes.yml` : exécute ce script chaque lundi à 4h et republie les
+  deux fichiers JSON s'ils ont changé.
+- L'application lit `veille_textes/alertes.json` (menu *Options → Veille des textes
+  réglementaires*) et affiche chaque alerte avec un choix "Corrigé dans l'appli ?" (oui/non,
+  non par défaut) que l'utilisateur coche lui-même une fois la mise à jour faite.
+
+**Limite importante, à savoir avant d'utiliser cet outil** : Légifrance (protection
+Cloudflare) et EUR-Lex (protection AWS WAF) bloquent tous les deux les requêtes automatiques
+simples avec une page de vérification JavaScript — il n'existe donc **aucun moyen fiable de
+détecter automatiquement un vrai changement de contenu** sur ces deux sites sans passer par
+leurs API officielles (PISTE pour Légifrance, service Cellar pour EUR-Lex), qui demandent
+chacune la création d'un compte séparé. En attendant une éventuelle intégration de ces API,
+les textes hébergés sur Légifrance/EUR-Lex utilisent un **rappel par échéance** : le script
+signale simplement qu'un texte n'a pas été revérifié depuis plus de `rappel_jours` jours (180
+pour les règlements européens, 365 pour le reste, 300 pour l'arrêté annuel thon rouge) — ce
+n'est pas une détection de changement réel, juste un rappel périodique fiable à 100 %.
+
+Seul le PDF du RIPAM (hébergé sur ffvoile.fr, sans protection anti-robot) bénéficie d'une
+vraie détection de changement par empreinte de contenu (`verification_auto: true` dans
+`instruments.json`).
+
+### Lancer manuellement en local
+
+```
+pip install -r requirements.txt
+python veille_textes/check_updates.py
+```

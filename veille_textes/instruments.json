@@ -1,0 +1,157 @@
+[
+  {
+    "id": "division-240",
+    "titre": "Division 240 — sécurité des navires (plaisance, VNM, location)",
+    "domaine": "plaisance",
+    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000841523",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "division-241",
+    "titre": "Division 241 — navires de plaisance à utilisation commerciale (NUC)",
+    "domaine": "plaisance",
+    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000841523",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "ripam",
+    "titre": "RIPAM — règlement international pour prévenir les abordages en mer",
+    "domaine": "plaisance",
+    "url": "https://www.ffvoile.fr/ffv/web/services/securite/documents/RIPAM_2A.pdf",
+    "type": "pdf",
+    "verification_auto": true,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "1967-2006",
+    "titre": "Règlement (CE) n° 1967/2006 — mesures de gestion Méditerranée",
+    "domaine": "peche-pro",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02006R1967",
+    "type": "eurlex",
+    "verification_auto": false,
+    "rappel_jours": 180,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "2019-1241",
+    "titre": "Règlement (UE) 2019/1241 — mesures techniques",
+    "domaine": "peche-pro",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02019R1241",
+    "type": "eurlex",
+    "verification_auto": false,
+    "rappel_jours": 180,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "1224-2009",
+    "titre": "Règlement (CE) n° 1224/2009 — contrôle de la pêche",
+    "domaine": "peche-pro",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02009R1224",
+    "type": "eurlex",
+    "verification_auto": false,
+    "rappel_jours": 180,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "2019-1022",
+    "titre": "Règlement (UE) 2019/1022 — plan pluriannuel Méditerranée occidentale",
+    "domaine": "peche-pro",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02019R1022",
+    "type": "eurlex",
+    "verification_auto": false,
+    "rappel_jours": 180,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "arrete-1994-12-19",
+    "titre": "Arrêté du 19 décembre 1994 — engins Méditerranée continentale",
+    "domaine": "peche-pro",
+    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000733801",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "arrete-2013-01-28",
+    "titre": "Arrêté du 28 janvier 2013 — tailles/poids minimaux français",
+    "domaine": "peche-pro",
+    "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000027064465",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "code-rural-sanctions",
+    "titre": "Code rural — sanctions pêche (L.945 et L.946)",
+    "domaine": "peche-pro",
+    "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071367/LEGISCTA000022197419/",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "thon-rouge-loisir-2026",
+    "titre": "Arrêté annuel thon rouge — pêche de loisir",
+    "domaine": "peche-loisir",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053717021",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 300,
+    "note": "ATTENTION : ce texte est republié chaque année avec un nouveau JORFTEXT id — l'URL ci-dessus deviendra obsolète après la campagne 2026. Vérifier manuellement sur Légifrance dès janvier de chaque année.",
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "loisir-cadre-general",
+    "titre": "Code rural R.921-83 à R.921-93 — cadre général pêche de loisir",
+    "domaine": "peche-loisir",
+    "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000029979371",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "loisir-tailles-2012",
+    "titre": "Arrêté du 26 octobre 2012 — tailles minimales pêche de loisir",
+    "domaine": "peche-loisir",
+    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000026582115",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  },
+  {
+    "id": "loisir-enregistrement-2025",
+    "titre": "Arrêté du 7 novembre 2025 — enregistrement et déclaration pêche de loisir",
+    "domaine": "peche-loisir",
+    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000052982949",
+    "type": "legifrance",
+    "verification_auto": false,
+    "rappel_jours": 365,
+    "last_hash": null,
+    "last_checked": null
+  }
+]
