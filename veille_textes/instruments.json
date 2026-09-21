@@ -8,7 +8,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:29Z"
   },
   {
     "id": "division-241",
@@ -19,7 +19,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:29Z"
   },
   {
     "id": "ripam",
@@ -29,8 +29,8 @@
     "type": "pdf",
     "verification_auto": true,
     "rappel_jours": 365,
-    "last_hash": null,
-    "last_checked": null
+    "last_hash": "74bae65e0b22e50f54019505999d4d134d7f57013b9f5acc617fb5705cb6a3b3",
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "1967-2006",
@@ -41,7 +41,7 @@
     "verification_auto": false,
     "rappel_jours": 180,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "2019-1241",
@@ -52,7 +52,7 @@
     "verification_auto": false,
     "rappel_jours": 180,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "1224-2009",
@@ -63,7 +63,7 @@
     "verification_auto": false,
     "rappel_jours": 180,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "2019-1022",
@@ -74,7 +74,7 @@
     "verification_auto": false,
     "rappel_jours": 180,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "arrete-1994-12-19",
@@ -85,7 +85,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "arrete-2013-01-28",
@@ -96,7 +96,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "code-rural-sanctions",
@@ -107,7 +107,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "thon-rouge-loisir-2026",
@@ -119,7 +119,7 @@
     "rappel_jours": 300,
     "note": "ATTENTION : ce texte est republié chaque année avec un nouveau JORFTEXT id — l'URL ci-dessus deviendra obsolète après la campagne 2026. Vérifier manuellement sur Légifrance dès janvier de chaque année.",
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "loisir-cadre-general",
@@ -130,7 +130,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "loisir-tailles-2012",
@@ -141,7 +141,7 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   },
   {
     "id": "loisir-enregistrement-2025",
@@ -152,6 +152,6 @@
     "verification_auto": false,
     "rappel_jours": 365,
     "last_hash": null,
-    "last_checked": null
+    "last_checked": "2026-09-21T04:14:30Z"
   }
 ]
