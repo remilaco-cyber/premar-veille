@@ -1,5 +1,17 @@
 [
   {
+    "numero": "2026-393",
+    "dateSignature": "2026-10-08",
+    "dateAffichage": "8 oct. 2026",
+    "departements": [
+      "Gard"
+    ],
+    "titre": "AP : Portant délégation de l'exercice de la présidence de la commission nautique locale du Gard",
+    "note": "T.ABROGÉ : arrêté interpréfectoral n°376/2025 du 10 octobre 2025 (RAA préfecture maritime de la Méditerranée) et n°30-2025-180 du 10 octobre 2025 (RAA préfecture du Gard)",
+    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/8c0a87a66db3f85a292c76f7dd4abd78.pdf",
+    "texteExtrait": null
+  },
+  {
     "numero": "2026-369",
     "dateSignature": "2026-09-04",
     "dateAffichage": "4 sept. 2026",
@@ -166,18 +178,6 @@
     "titre": "AP réglementant la navigation, le mouillage et la plongée sous-marine dans la bande littorale des 300 mètres au droit du littoral de la commune de Bouzigues (Hérault), à l’occasion de la manifestation nautique « Cross Triathlon & Swimrun de Bouzigues » le 07 juin 2026",
     "note": null,
     "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/ce7bad994dba7db7f846ee2c587b7e63.pdf",
-    "texteExtrait": null
-  },
-  {
-    "numero": "2026-158",
-    "dateSignature": "2026-05-29",
-    "dateAffichage": "29 mai 2026",
-    "departements": [
-      "Hérault"
-    ],
-    "titre": "AP portant dérogation à l’arrêté préfectoral n° 55/2009 du 15 mai 2009 modifié réglementant la circulation des navires et engins sur l’Étang de Thau (Hérault), à l’occasion de la manifestation nautique « Des plongées sous-marines, découverte de la vie sous-marine sous les ta",
-    "note": null,
-    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/b4075199c8142d4a50e5c4028cc25f4c.pdf",
     "texteExtrait": null
   },
   {
@@ -349,18 +349,6 @@
     "titre": "AP portant abrogation de l’arrêté préfectoral n°306/2025 du 08 août 2025 interdisant la navigation et les activités nautiques sur l’étang de Thau (secteur de la source de la Vise) au droit du littoral de la commune de Balaruc-les-Bains (Hérault)",
     "note": "T. ABROGÉ : arrêté préfectoral n°306/2025 du 08 août 2025",
     "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/11c1c026d25adeccb8fe402fd94609b2.pdf",
-    "texteExtrait": null
-  },
-  {
-    "numero": "2025-376",
-    "dateSignature": "2025-10-10",
-    "dateAffichage": "10 oct. 2025",
-    "departements": [
-      "Gard"
-    ],
-    "titre": "portant délégation de l'exercice de la présidence de la commission nautique locale du Gard",
-    "note": "T. ABROGE: arrêté interpréfectoral n° 230/2019 du 05 septembre 2019 (RAA préfecture maritime de la Méditerranée) et n° 30-2019-09-09-007 du 20 septembre 2019 (RAA préfecture du Gard)",
-    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/b2717e73b56402a35bc6a79520fadf34.pdf",
     "texteExtrait": null
   },
   {
