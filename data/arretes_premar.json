@@ -1,5 +1,29 @@
 [
   {
+    "numero": "2026-400",
+    "dateSignature": "2026-10-20",
+    "dateAffichage": "20 oct. 2026",
+    "departements": [
+      "Hérault"
+    ],
+    "titre": "AP réglementant la navigation, le mouillage et l’arrêt des navires ainsi que le dragage et les activités sous-marines dans le cantonnement de pêche du banc rocheux de Porquières au large de la commune de Palavas-les-Flots (Hérault).",
+    "note": "T. ABROGÉ : arrêté préfectoral n° 160/2026 du 26 mai 2026.",
+    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/5c7d49ad1cab6fa3ad7f7abbdb0eb784.pdf",
+    "texteExtrait": null
+  },
+  {
+    "numero": "2026-405",
+    "dateSignature": "2026-10-20",
+    "dateAffichage": "20 oct. 2026",
+    "departements": [
+      "Hérault"
+    ],
+    "titre": "AP réglementant la navigation, le mouillage, l’arrêt, le dragage et la plongée sous-marine à l’intérieur du lotissement de cultures marines dit des « Aresquiers » situé au droit du littoral de la commune de Villeneuve-lès-Maguelone (Hérault) à compter du 22 octobre 2026",
+    "note": null,
+    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/f89107c67e2a58216057e9d83920c8ca.pdf",
+    "texteExtrait": null
+  },
+  {
     "numero": "2026-393",
     "dateSignature": "2026-10-08",
     "dateAffichage": "8 oct. 2026",
@@ -181,15 +205,15 @@
     "texteExtrait": null
   },
   {
-    "numero": "2026-160",
+    "numero": "2026-158",
     "dateSignature": "2026-05-29",
     "dateAffichage": "29 mai 2026",
     "departements": [
       "Hérault"
     ],
-    "titre": "AP réglementant la navigation, le mouillage, le dragage et les activités sous-marines dans le cantonnement de pêche du banc rocheux de Porquières au large de la commune de Palavas-les-Flots (Hérault)",
-    "note": "ABROGE l'arrêté préfectoral n°138/2021 du 18 juin 2021 modifié.",
-    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/556fb4fd0cbd3acb723cdc0e1b0261a8.pdf",
+    "titre": "AP portant dérogation à l’arrêté préfectoral n° 55/2009 du 15 mai 2009 modifié réglementant la circulation des navires et engins sur l’Étang de Thau (Hérault), à l’occasion de la manifestation nautique « Des plongées sous-marines, découverte de la vie sous-marine sous les ta",
+    "note": null,
+    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/b4075199c8142d4a50e5c4028cc25f4c.pdf",
     "texteExtrait": null
   },
   {
