@@ -1,5 +1,17 @@
 [
   {
+    "numero": "2026-416",
+    "dateSignature": "2026-11-09",
+    "dateAffichage": "9 nov. 2026",
+    "departements": [
+      "Hérault"
+    ],
+    "titre": "AIP portant délégation de l'exercice de la présidence de la commission nautique locale de l'Hérault",
+    "note": "Aboge l'AIP n° 074/2026 du 27 mars 2026 (RAA préfecture maritime de la Méditerranée) / n° 80/2026 du 27 mars 2026 (RAA préfecure de l'Hérault)",
+    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/935e5d9c46917948e9669f1c71b06aa3.pdf",
+    "texteExtrait": null
+  },
+  {
     "numero": "2026-400",
     "dateSignature": "2026-10-20",
     "dateAffichage": "20 oct. 2026",
@@ -263,18 +275,6 @@
     "titre": "AP réglementant le mouillage des engins de pêche, le chalutage et l’usage des arts traînants aux abords de la commune de Sète (Hérault)",
     "note": "T. ABROGÉ : arrêté préfectoral n° 60/2026 du 20 mars 2026.",
     "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/2dde33dbcb8c5732acc0c9c24be5af87.pdf",
-    "texteExtrait": null
-  },
-  {
-    "numero": "2026-074",
-    "dateSignature": "2026-03-27",
-    "dateAffichage": "27 mars 2026",
-    "departements": [
-      "Hérault"
-    ],
-    "titre": "AIP portant délégation de l'exercice de la présidence de la commission nautique locale d'Hérault",
-    "note": "T. ABROGE : AIP n° 427/2024 du novembre 2024 (RAA préfecture maritime de la Méditerranée)",
-    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/7f80f8e5bc3377135ab25f2ef6d05047.pdf",
     "texteExtrait": null
   },
   {
@@ -581,6 +581,18 @@
     "titre": "portant limitation de la vitesse des navires et des engins immatriculés motorisés ou à moteur entre l’Île Brescou et le port du Cap",
     "note": null,
     "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/f1cd6dd845140f7c089ad3b9ff6d55f4.pdf",
+    "texteExtrait": null
+  },
+  {
+    "numero": "2024-228",
+    "dateSignature": "2024-06-24",
+    "dateAffichage": "24 juin 2024",
+    "departements": [
+      "Hérault"
+    ],
+    "titre": "règlementant la navigation, le mouillage des navires, la plongée sous-marine et la pratique des sports nautiques de vitesse dans la bande littorale des 300 mètres bordant la commune de Vias (Hérault)",
+    "note": null,
+    "pdfUrl": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/b7199025f11c69edc3e2f9ba7941e646.pdf",
     "texteExtrait": null
   },
   {
